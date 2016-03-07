@@ -5,41 +5,34 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2012-01-01T06:00:00Z</updated>
+  <updated>2016-03-06T05:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Lorem Ipsum</title>
-    <link rel="alternate" href="/blog/2012/01/01/example-article.html"/>
-    <id>/blog/2012/01/01/example-article.html</id>
-    <published>2012-01-01T06:00:00Z</published>
-    <updated>2012-01-01T06:00:00Z</updated>
+    <title/>
+    <link rel="alternate" href="/blog/2016/03/06/hoaxy-article.html"/>
+    <id>/blog/2016/03/06/hoaxy-article.html</id>
+    <published>2016-03-06T05:00:00Z</published>
+    <updated>2016-03-06T05:00:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Approximately 65% of American adults access the news through social media. Through our shares and retweets, we participate in the propagation of the news that we find interesting and trustworthy. This has the implication that no individual authority...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Approximately 65% of American adults access the news through social media. Through our shares and retweets, we participate in the propagation of the news that we find interesting and trustworthy. This has the implication that no individual authority can dictate what kind of information is distributed on the whole network. While such platforms have brought about a more egalitarian model of information access according to some, the lack of oversight from expert journalists makes social media vulnerable to the intentional or unintentional spread of misinformation. Do you believe what you read on social media?&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-</summary>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+&lt;p&gt;Several characteristics of online social networks, such as homophily, polarized echo chambers, algorithmic ranking, and social bubbles, create considerable challenges for our capability to discriminate between facts and misinformation, and allocate our attention and energy accordingly. Furthermore, the harsh competition for our limited attention created by the fast news life cycle makes it inevitable that some news will go viral even if they carry false or unreliable information. 
+It is therefore not too surprising that many hoaxes have spread online in viral fashion, oftentimes with worrying real-world consequences, for example in health and finance. Examples include rumors, false news, and conspiracy theories. The recent emergence of fake news sites is a worrysome phenomenon. While some are funny, many attract eyeballs and advertising profits by spreading uncertainty, fear, panic and civil disorder. &lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget lorem quis eros dictum dictum a vitae purus. Quisque non elit sit amet turpis ullamcorper blandit. 
-Suspendisse vitae turpis et enim feugiat ullamcorper at non turpis. Vestibulum posuere, eros eget vulputate faucibus, metus massa congue velit, non pulvinar tortor risus 
-ut enim. Pellentesque lectus ligula, vehicula luctus volutpat in, convallis quis ante. Proin non odio eu orci feugiat feugiat. Mauris molestie nisi non venenatis molestie. 
-Pellentesque facilisis eros ut ultrices ultrices.
-&lt;/p&gt;
-&lt;pre class="highlight ruby"&gt;&lt;span class="k"&gt;class &lt;/span&gt;&lt;span class="nc"&gt;Hello&lt;/span&gt;
-  &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;foo&lt;/span&gt;
-    &lt;span class="s2"&gt;&amp;quot;I am a code segment!&amp;quot;&lt;/span&gt;
-  &lt;span class="k"&gt;end&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-&lt;/pre&gt;
-&lt;p&gt;Nam commodo hendrerit scelerisque. Ut tristique lacus lobortis neque rhoncus, ut tempor enim mattis. Suspendisse vel eleifend quam. Suspendisse luctus nisl eget elit euismod, 
-in sodales metus blandit. Mauris nisi eros, venenatis a sagittis id, dictum id arcu. Nam tempus pulvinar ante at semper. Donec tincidunt dolor ac sem tempor laoreet.&lt;/p&gt;
+&lt;p&gt;Due to the magnitude of the phenomenon, media organizations are devoting increasing efforts to produce accurate verifications in a timely manner. For example, during Hurricane Sandy, false reports that the New York Stocks Exchange had been flooded were corrected in less than an hour. The fact-checking network includes Snopes.com, PolitiFact, and FactCheck.org.  More recently, efforts have been made to detect and track rumors. Fact-checking assessments are consumed and broadcast by social media users like any other type of news content, leading to a complex interplay between news memes that vie for the attention of users. Political scientists tell us that in many cases, fact-checking effort may be ineffective or even counterproductive. How to make sense of all this? To date, there is no systematic way to observe and analyze the competition dynamics between online misinformation and its debunking. &lt;/p&gt;
+
+&lt;p&gt;To address some of these challenges, researchers at the Indiana University Network Science Institute (IUNI) and the School of Informatics and Computing’s Center for Complex Networks and Systems Research (CNetS) are working on an open platform for the automatick tracking of both online fake news and fact-checking on social media. The goal of the platform, named Hoaxy, is to reconstruct the diffusion networks induced by hoaxes and their corrections as they are shared online and spread from person to person. Hoaxy will allow researchers, journalists, and the general public to study the factors that affect the success and mitigation of massive digital misinformation. &lt;/p&gt;
+
+&lt;p&gt;The Hoaxy system employs web crawlers to extracts links to articles posted on fake news websites and links to their debinking on fact-checking sites. It then uses social media APIs to monitor how these links spread through online social networks. The collected data is stored on a database for easy retrieval and analysis. A dashboard will provide interactive analytics and visualizations. &lt;/p&gt;
+
+&lt;p&gt;Hoaxy hasn’t been released to the public yet, but we have been collecting data for a few months. Preliminary analysis of traffic volume reveals that, in the aggregate, the sharing of fact-checking content typically lags that of misinformation by 10-20 hours. More interestingly, we find that the sharing of fake news is dominated by very active users, while fact checking is a more grass-roots activity. A paper with these results, titled Hoaxy: A Platform for Tracking Online Misinformation and authored by Chengcheng Shao, Giovanni Luca Ciampaglia, Alessandro Flammini, and Filippo Menczer, will be presented this April at the Third Workshop on Social News On the Web (SNOW), to be held in conjunction with the 25th International World Wide Web Conference (WWW 2016) in Montreal.&lt;/p&gt;
+
+&lt;p&gt;The World Economic Forum ranks massive digital misinformation among the top future global risks, along with water supply crises, major systemic financial failures, and failure to adapt to climate change. Social news observatories such as Hoaxy have the potential to shed light on this phenomenon and help us develop effective countermeasures.&lt;/p&gt;
 </content>
   </entry>
 </feed>
